@@ -1,36 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&display=swap');
 body{
-	margin:0px;
+	  
+    background-image:url(bgimage.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+ 
 }
-
-
 .horizontal-list{
     list-style: none;
     padding-left:750px;
     padding-right: 0px;
     margin: 0px;
 }
-
 .horizontal-list li{
     display:inline-block;
-    
-
     margin: 10px 10px 10px 5px;
     font-weight: 100;
     font-size: 0.9rem;
 }
-
-
 .horizontal-list li a{
     color:black;
     text-decoration: none;
     font-size: 20px;
 }
-
 .nav-menu li a{
     transition: color 0.5s, border-bottom 4s;
 }
-
 .nav-menu li a:hover{
     color:grey;
     border-bottom: 1px solid black;
 }
+.contact{
+    display:flex;
+}
+.left-box{
+    height:350px;
+    min-width:35%;
+    margin-top:100px;
+    margin-left:150px;
+    border:2px solid black;
+    border-radius:50px;
+}
+.right-box{
+    height:350px;
+    width:35%;
+    margin-top:100px;
+    margin-left:80px;
+    border:2px solid black;
+    border-radius:50px;
+}
+.alignment{
+    text-align: center;
+    font-family:'Kiwi Maru';
+}
+.email{
+
+width: 352px;
+height: 53px;
+margin-left:50px;
+top: 160px;
+
+font-family: 'Kiwi Maru';
+
+
+font-size: 20px;
+line-height:0px;
+
+align-items: center;
+
+color: #000000;
+
+}
+.address{
+
+width: 352px;
+height: 60px;
+margin-left:50px;
+top: 160px;
+
+font-family: 'Kiwi Maru';
+
+
+font-size: 20px;
+line-height:2px;
+
+align-items: center;
+
+color: #000000;
+
+}
+.phoneno{
+
+
+height: 53px;
+margin-left:230px;
+margin-top: -87px;
+
+font-family: 'Kiwi Maru';
+
+
+font-size: 20px;
+line-height:2px;
+
+align-items: center;
+
+color: #000000;
+
+}
+#contact-form input,textarea {
+    width: 100%;
+    margin: 5px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    font-family: 'Kiwi Maru';
+    border-bottom: 2px solid black;
+    color:black;
+    background: transparent;
+    width: 300px;
+    line-height:2;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid black;
+    margin-top: 2%;
+    margin-left: 65%;
+    border-radius: 2px;
+    color:black;
+    font-family: 'Kiwi Maru';
+    font-weight: 700;
+    text-align:center;
+    letter-spacing: 0.046875em;
+    line-height: 0,4;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+
+#contact-form button:hover {
+    background:lightgreen;
+    color: #13386fe0;
+}
+#contact-form {
+    margin-left: 20%;
+}
+#contact-form-container {
+    width: 50%;
+}
+
+
