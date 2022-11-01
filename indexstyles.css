@@ -31,43 +31,16 @@ body {
   color: white;
 }
 .navbar p {
-	text-align: right;
+	text-align: center;
 }
 
 .main {
   padding: 16px;
   margin-bottom: 30px;
 }
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-instagram {
-  background: #DD2A7B;
-  color: white;
-}
-
 .topnav {
   overflow: hidden;
-  background-color:#ADD8E6;
+  background-color:#FFE5B4;
 ;
 }
 
@@ -94,6 +67,6 @@ body {
   float: right;
 }
 html {    
-    background: url('bgweb.jpg') no-repeat center fixed;     
+    background: url('bgimage.jpg') no-repeat center fixed;     
     background-size: cover;
 }
